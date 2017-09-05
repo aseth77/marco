@@ -1,0 +1,527 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0170C92018FB8243002BCB03 /* MPAddViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0170C91F18FB8243002BCB03 /* MPAddViewController.m */; };
+		019D957218E3C8B10080C0DE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 019D957118E3C8B10080C0DE /* Foundation.framework */; };
+		019D957418E3C8B10080C0DE /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 019D957318E3C8B10080C0DE /* CoreGraphics.framework */; };
+		019D957618E3C8B10080C0DE /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 019D957518E3C8B10080C0DE /* UIKit.framework */; };
+		019D957C18E3C8B20080C0DE /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 019D957A18E3C8B20080C0DE /* InfoPlist.strings */; };
+		019D957E18E3C8B20080C0DE /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 019D957D18E3C8B20080C0DE /* main.m */; };
+		019D958218E3C8B20080C0DE /* MPAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 019D958118E3C8B20080C0DE /* MPAppDelegate.m */; };
+		019D958518E3C8B20080C0DE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 019D958318E3C8B20080C0DE /* Main.storyboard */; };
+		019D958D18E3C8B20080C0DE /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 019D958C18E3C8B20080C0DE /* Images.xcassets */; };
+		019D959418E3C8B20080C0DE /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 019D959318E3C8B20080C0DE /* XCTest.framework */; };
+		019D959518E3C8B20080C0DE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 019D957118E3C8B10080C0DE /* Foundation.framework */; };
+		019D959618E3C8B20080C0DE /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 019D957518E3C8B10080C0DE /* UIKit.framework */; };
+		019D959E18E3C8B20080C0DE /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 019D959C18E3C8B20080C0DE /* InfoPlist.strings */; };
+		019D95A018E3C8B20080C0DE /* MarcoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 019D959F18E3C8B20080C0DE /* MarcoTests.m */; };
+		019D95AF18E8E1140080C0DE /* MPHomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 019D95AE18E8E1140080C0DE /* MPHomeViewController.m */; };
+		019D95B718E8F51A0080C0DE /* libTestFlight.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 019D95B118E8F51A0080C0DE /* libTestFlight.a */; };
+		019D95B818E8F51A0080C0DE /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 019D95B218E8F51A0080C0DE /* README.md */; };
+		019D95B918E8F51A0080C0DE /* release_notes.md in Resources */ = {isa = PBXBuildFile; fileRef = 019D95B318E8F51A0080C0DE /* release_notes.md */; };
+		019D95BB18E8F54A0080C0DE /* libz.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 019D95BA18E8F54A0080C0DE /* libz.dylib */; };
+		01AB1A1E18F196FC004DDB3C /* MPHomeTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 01AB1A1D18F196FC004DDB3C /* MPHomeTableViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		019D959718E3C8B20080C0DE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 019D956618E3C8B10080C0DE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 019D956D18E3C8B10080C0DE;
+			remoteInfo = Marco;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0170C91E18FB8243002BCB03 /* MPAddViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MPAddViewController.h; sourceTree = "<group>"; };
+		0170C91F18FB8243002BCB03 /* MPAddViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MPAddViewController.m; sourceTree = "<group>"; };
+		019D956E18E3C8B10080C0DE /* Marco.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Marco.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		019D957118E3C8B10080C0DE /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		019D957318E3C8B10080C0DE /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		019D957518E3C8B10080C0DE /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		019D957918E3C8B20080C0DE /* Marco-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Marco-Info.plist"; sourceTree = "<group>"; };
+		019D957B18E3C8B20080C0DE /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		019D957D18E3C8B20080C0DE /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		019D957F18E3C8B20080C0DE /* Marco-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Marco-Prefix.pch"; sourceTree = "<group>"; };
+		019D958018E3C8B20080C0DE /* MPAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MPAppDelegate.h; sourceTree = "<group>"; };
+		019D958118E3C8B20080C0DE /* MPAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MPAppDelegate.m; sourceTree = "<group>"; };
+		019D958418E3C8B20080C0DE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		019D958C18E3C8B20080C0DE /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		019D959218E3C8B20080C0DE /* MarcoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MarcoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		019D959318E3C8B20080C0DE /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		019D959B18E3C8B20080C0DE /* MarcoTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MarcoTests-Info.plist"; sourceTree = "<group>"; };
+		019D959D18E3C8B20080C0DE /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		019D959F18E3C8B20080C0DE /* MarcoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MarcoTests.m; sourceTree = "<group>"; };
+		019D95AD18E8E1140080C0DE /* MPHomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MPHomeViewController.h; sourceTree = "<group>"; };
+		019D95AE18E8E1140080C0DE /* MPHomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MPHomeViewController.m; sourceTree = "<group>"; };
+		019D95B118E8F51A0080C0DE /* libTestFlight.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libTestFlight.a; sourceTree = "<group>"; };
+		019D95B218E8F51A0080C0DE /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README.md; sourceTree = "<group>"; };
+		019D95B318E8F51A0080C0DE /* release_notes.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = release_notes.md; sourceTree = "<group>"; };
+		019D95B418E8F51A0080C0DE /* TestFlight+AsyncLogging.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "TestFlight+AsyncLogging.h"; sourceTree = "<group>"; };
+		019D95B518E8F51A0080C0DE /* TestFlight+ManualSessions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "TestFlight+ManualSessions.h"; sourceTree = "<group>"; };
+		019D95B618E8F51A0080C0DE /* TestFlight.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestFlight.h; sourceTree = "<group>"; };
+		019D95BA18E8F54A0080C0DE /* libz.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.dylib; path = usr/lib/libz.dylib; sourceTree = SDKROOT; };
+		01AB1A1C18F196FC004DDB3C /* MPHomeTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MPHomeTableViewController.h; sourceTree = "<group>"; };
+		01AB1A1D18F196FC004DDB3C /* MPHomeTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MPHomeTableViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		019D956B18E3C8B10080C0DE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				019D95BB18E8F54A0080C0DE /* libz.dylib in Frameworks */,
+				019D957418E3C8B10080C0DE /* CoreGraphics.framework in Frameworks */,
+				019D957618E3C8B10080C0DE /* UIKit.framework in Frameworks */,
+				019D957218E3C8B10080C0DE /* Foundation.framework in Frameworks */,
+				019D95B718E8F51A0080C0DE /* libTestFlight.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		019D958F18E3C8B20080C0DE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				019D959418E3C8B20080C0DE /* XCTest.framework in Frameworks */,
+				019D959618E3C8B20080C0DE /* UIKit.framework in Frameworks */,
+				019D959518E3C8B20080C0DE /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		019D956518E3C8B10080C0DE = {
+			isa = PBXGroup;
+			children = (
+				019D95B018E8F51A0080C0DE /* TestFlightSDK3 */,
+				019D957718E3C8B20080C0DE /* Marco */,
+				019D959918E3C8B20080C0DE /* MarcoTests */,
+				019D957018E3C8B10080C0DE /* Frameworks */,
+				019D956F18E3C8B10080C0DE /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		019D956F18E3C8B10080C0DE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				019D956E18E3C8B10080C0DE /* Marco.app */,
+				019D959218E3C8B20080C0DE /* MarcoTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		019D957018E3C8B10080C0DE /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				019D95BA18E8F54A0080C0DE /* libz.dylib */,
+				019D957118E3C8B10080C0DE /* Foundation.framework */,
+				019D957318E3C8B10080C0DE /* CoreGraphics.framework */,
+				019D957518E3C8B10080C0DE /* UIKit.framework */,
+				019D959318E3C8B20080C0DE /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		019D957718E3C8B20080C0DE /* Marco */ = {
+			isa = PBXGroup;
+			children = (
+				019D958018E3C8B20080C0DE /* MPAppDelegate.h */,
+				019D958118E3C8B20080C0DE /* MPAppDelegate.m */,
+				019D958318E3C8B20080C0DE /* Main.storyboard */,
+				019D958C18E3C8B20080C0DE /* Images.xcassets */,
+				019D957818E3C8B20080C0DE /* Supporting Files */,
+				019D95AD18E8E1140080C0DE /* MPHomeViewController.h */,
+				019D95AE18E8E1140080C0DE /* MPHomeViewController.m */,
+				01AB1A1C18F196FC004DDB3C /* MPHomeTableViewController.h */,
+				01AB1A1D18F196FC004DDB3C /* MPHomeTableViewController.m */,
+				0170C91E18FB8243002BCB03 /* MPAddViewController.h */,
+				0170C91F18FB8243002BCB03 /* MPAddViewController.m */,
+			);
+			path = Marco;
+			sourceTree = "<group>";
+		};
+		019D957818E3C8B20080C0DE /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				019D957918E3C8B20080C0DE /* Marco-Info.plist */,
+				019D957A18E3C8B20080C0DE /* InfoPlist.strings */,
+				019D957D18E3C8B20080C0DE /* main.m */,
+				019D957F18E3C8B20080C0DE /* Marco-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		019D959918E3C8B20080C0DE /* MarcoTests */ = {
+			isa = PBXGroup;
+			children = (
+				019D959F18E3C8B20080C0DE /* MarcoTests.m */,
+				019D959A18E3C8B20080C0DE /* Supporting Files */,
+			);
+			path = MarcoTests;
+			sourceTree = "<group>";
+		};
+		019D959A18E3C8B20080C0DE /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				019D959B18E3C8B20080C0DE /* MarcoTests-Info.plist */,
+				019D959C18E3C8B20080C0DE /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		019D95B018E8F51A0080C0DE /* TestFlightSDK3 */ = {
+			isa = PBXGroup;
+			children = (
+				019D95B118E8F51A0080C0DE /* libTestFlight.a */,
+				019D95B218E8F51A0080C0DE /* README.md */,
+				019D95B318E8F51A0080C0DE /* release_notes.md */,
+				019D95B418E8F51A0080C0DE /* TestFlight+AsyncLogging.h */,
+				019D95B518E8F51A0080C0DE /* TestFlight+ManualSessions.h */,
+				019D95B618E8F51A0080C0DE /* TestFlight.h */,
+			);
+			path = TestFlightSDK3;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		019D956D18E3C8B10080C0DE /* Marco */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 019D95A318E3C8B20080C0DE /* Build configuration list for PBXNativeTarget "Marco" */;
+			buildPhases = (
+				019D956A18E3C8B10080C0DE /* Sources */,
+				019D956B18E3C8B10080C0DE /* Frameworks */,
+				019D956C18E3C8B10080C0DE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Marco;
+			productName = Marco;
+			productReference = 019D956E18E3C8B10080C0DE /* Marco.app */;
+			productType = "com.apple.product-type.application";
+		};
+		019D959118E3C8B20080C0DE /* MarcoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 019D95A618E3C8B20080C0DE /* Build configuration list for PBXNativeTarget "MarcoTests" */;
+			buildPhases = (
+				019D958E18E3C8B20080C0DE /* Sources */,
+				019D958F18E3C8B20080C0DE /* Frameworks */,
+				019D959018E3C8B20080C0DE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				019D959818E3C8B20080C0DE /* PBXTargetDependency */,
+			);
+			name = MarcoTests;
+			productName = MarcoTests;
+			productReference = 019D959218E3C8B20080C0DE /* MarcoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		019D956618E3C8B10080C0DE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = MP;
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = "Sapota Technologies LLC";
+				TargetAttributes = {
+					019D959118E3C8B20080C0DE = {
+						TestTargetID = 019D956D18E3C8B10080C0DE;
+					};
+				};
+			};
+			buildConfigurationList = 019D956918E3C8B10080C0DE /* Build configuration list for PBXProject "Marco" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 019D956518E3C8B10080C0DE;
+			productRefGroup = 019D956F18E3C8B10080C0DE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				019D956D18E3C8B10080C0DE /* Marco */,
+				019D959118E3C8B20080C0DE /* MarcoTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		019D956C18E3C8B10080C0DE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				019D958D18E3C8B20080C0DE /* Images.xcassets in Resources */,
+				019D957C18E3C8B20080C0DE /* InfoPlist.strings in Resources */,
+				019D95B818E8F51A0080C0DE /* README.md in Resources */,
+				019D958518E3C8B20080C0DE /* Main.storyboard in Resources */,
+				019D95B918E8F51A0080C0DE /* release_notes.md in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		019D959018E3C8B20080C0DE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				019D959E18E3C8B20080C0DE /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		019D956A18E3C8B10080C0DE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				019D957E18E3C8B20080C0DE /* main.m in Sources */,
+				0170C92018FB8243002BCB03 /* MPAddViewController.m in Sources */,
+				019D958218E3C8B20080C0DE /* MPAppDelegate.m in Sources */,
+				019D95AF18E8E1140080C0DE /* MPHomeViewController.m in Sources */,
+				01AB1A1E18F196FC004DDB3C /* MPHomeTableViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		019D958E18E3C8B20080C0DE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				019D95A018E3C8B20080C0DE /* MarcoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		019D959818E3C8B20080C0DE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 019D956D18E3C8B10080C0DE /* Marco */;
+			targetProxy = 019D959718E3C8B20080C0DE /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		019D957A18E3C8B20080C0DE /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				019D957B18E3C8B20080C0DE /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		019D958318E3C8B20080C0DE /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				019D958418E3C8B20080C0DE /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		019D959C18E3C8B20080C0DE /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				019D959D18E3C8B20080C0DE /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		019D95A118E3C8B20080C0DE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		019D95A218E3C8B20080C0DE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		019D95A418E3C8B20080C0DE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Marco/Marco-Prefix.pch";
+				INFOPLIST_FILE = "Marco/Marco-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/TestFlightSDK3",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		019D95A518E3C8B20080C0DE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Sapota Technologies LLC (K32AFAEPST)";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Marco/Marco-Prefix.pch";
+				INFOPLIST_FILE = "Marco/Marco-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/TestFlightSDK3",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		019D95A718E3C8B20080C0DE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Marco.app/Marco";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Marco/Marco-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "MarcoTests/MarcoTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		019D95A818E3C8B20080C0DE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Marco.app/Marco";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Marco/Marco-Prefix.pch";
+				INFOPLIST_FILE = "MarcoTests/MarcoTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		019D956918E3C8B10080C0DE /* Build configuration list for PBXProject "Marco" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				019D95A118E3C8B20080C0DE /* Debug */,
+				019D95A218E3C8B20080C0DE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		019D95A318E3C8B20080C0DE /* Build configuration list for PBXNativeTarget "Marco" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				019D95A418E3C8B20080C0DE /* Debug */,
+				019D95A518E3C8B20080C0DE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		019D95A618E3C8B20080C0DE /* Build configuration list for PBXNativeTarget "MarcoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				019D95A718E3C8B20080C0DE /* Debug */,
+				019D95A818E3C8B20080C0DE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 019D956618E3C8B10080C0DE /* Project object */;
+}
